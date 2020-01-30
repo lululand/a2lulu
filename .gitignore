@@ -3,6 +3,8 @@
 # Edit at https://www.gitignore.io/?templates=sass,windows,visualstudiocode
 
 README.txt
+LICENSE.txt
+projects.code-workspace
 
 ### Sass ###
 .sass-cache/
