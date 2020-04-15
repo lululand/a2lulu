@@ -2608,7 +2608,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h2, #header h3, #header h4, #header h5, #header h6, #header hr {
 			color: #ffffff;
 		}
 
@@ -3188,3 +3188,13 @@ input, select, textarea {
 			}
 
 	}
+
+.tiny {
+	font-size: xx-small;
+	margin-top: 0;
+}	
+
+.icon-img {
+	vertical-align: middle;
+	margin-bottom: 12px;
+}
