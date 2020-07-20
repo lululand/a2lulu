@@ -105,7 +105,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-	a {
+	.innertext a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -115,12 +115,44 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
+		.innertext a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff;
-			!important;
 			text-decoration: none;
 		}
+
+		
+	.inner a {
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		color: #cfcfcf;
+		text-decoration: none;
+	}
+
+		.inner a:hover {
+			border-bottom-color: transparent;
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a {
+			-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			border-bottom: dotted 1px;
+			color: #076e7c;
+			text-decoration: none;
+		}
+	
+			a:hover {
+				border-bottom-color: transparent;
+				color: #868686;
+				text-decoration: none;
+			}
+	
 
 	strong, b {
 		color: #787878;
