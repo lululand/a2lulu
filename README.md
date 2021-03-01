@@ -1,4 +1,4 @@
-## My resume/portfolio work-in-progress. 
+## My resume/portfolio site
 
 Modified bootstrap Strata template by HTML5 UP
 html5up.net | @ajlkn
